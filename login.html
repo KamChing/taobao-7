@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="lib/MiFie-Web-Font/style.css" />
+		<style type="text/css">
+			body,
+			div,
+			span {
+				padding: 0;
+				margin: 0;
+				font-family: "微软雅黑", sans-serif;
+			}
+			
+			.logoBox .icon-e917 {
+				font-size: 43px;
+				color: #c90d16;
+				padding: 22px 22px 22px 72px;
+				height: 44px;
+				display: inline-block;
+			}
+			
+			.loginBox {
+				background: #b60208;
+				text-align: center;
+			}
+			
+			.loginBox .loginInformationBox {
+				background: #FFF;
+				width: 298px;
+				position: absolute;
+				right: 130px;
+				top: 30%;
+				padding: 25px 26px 105px 26px
+			}
+			
+			
+			.loginBox .loginInformationBox h4 {
+				text-align: left;
+				padding-left: 11px;
+			}
+			
+			.loginInformationBoxItem
+			{
+				width: 298px;
+
+				
+			}
+			.loginInformationBoxItem input
+			{
+				 width: 244px;
+			    margin-bottom: 20px;
+			    padding: 11px 0;
+			    border: solid 1px #E0E0E0;
+			    text-indent: 1em;
+			}
+			.loginInformationBoxItem label
+			{
+				    display: inline-block;
+				    width: 40px;
+				    background: #ddd;
+				    padding: 9px 0;
+			}
+			#submit-bt {
+				background: #c40000;
+				width: 300px;
+				height: 42px;
+				color: #fff;
+				font-size: 16px;
+				font-weight: bold;
+				font-family: "微软雅黑";
+			}
+			.get-password
+			{
+				text-align: right;
+			}
+			.get-password a
+			{
+				font-size: 12px;
+				text-decoration: none;
+				color: #6c6c6c;
+				margin-left:10px;
+			}
+			.get-password a:hover
+			{
+				color: #C40000;
+			}
+			#show 
+			{
+				
+			}
+			#show  a
+			{
+				font-size: 12px;
+				color: #c40000;
+				font-weight: 400;
+				cursor: pointer;
+			}
+			#show  p
+			{
+				font-size: 12px;
+				color: #6C6C6C;
+				font-weight: 400;
+				background: #fef2f2;
+				padding: 2px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="logoBox">
+			<span class="icon-e917"></span>
+		</div>
+		<div class="loginBox">
+			<img src="img/TB1XfVlPXXXXXaFXVXXwu0bFXXX.png" />
+			<div class="loginInformationBox">
+				<h4 id="show">密码登录</h4>
+				<div class="loginInformationBoxItem">
+					<label for="username"><span class="icon-user"></span></label><input type="text" name="username" id="username"  placeholder="手机号/会员名/邮箱" /><br />
+
+				</div>
+				<div class="loginInformationBoxItem">
+					<label for="userPassword"><span  class="icon-password"></span></label><input type="password" name="userPassword" id="userPassword"  /><br />
+				</div>
+				<div class="loginInformationBoxItem">
+					<input type="button" name="submit-bt" id="submit-bt" value="登录" />
+				</div>
+				<div class="get-password">
+					<a href="#">忘记密码</a>
+					<a href="#">免费注册</a>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+</html>

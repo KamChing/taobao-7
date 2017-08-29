@@ -1,0 +1,25 @@
+{
+	"total": "4",
+	"data": [
+		{
+			"user": "mingming",
+			"password": "123321",
+			"sex":"male"
+		}, {
+			"user": "mm",
+			"password": "123321",
+			"sex":"female"
+			
+			
+		}, {
+			"user": "xi",
+			"password": "123321",
+			"sex":"female"
+			
+		}, {
+			"user": "cd",
+			"password": "123321",
+			"sex":"female"
+		}
+	]
+}
